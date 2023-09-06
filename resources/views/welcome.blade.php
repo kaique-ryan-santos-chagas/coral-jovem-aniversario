@@ -15,21 +15,27 @@
 
         <center>
 
-            <h1 class="title">CORAL JOVEM</h1>
-
             <div id="login">
                 
-                <h2 class="subtitle" id="enter">Entrar</h2>
-                
-                <label for="email" class="subtitle" id="label-email">E-mail</label>
-                <br>
-                <input id="email" class="input" autocomplete="false" />
-                
-                <br>
+                <h1 class="title">CORAL JOVEM</h1>
 
-                <label for="password" class="subtitle" id="label-password">Senha</label>
+                <div id="input-section">
+
+                    <label for="email" class="subtitle" id="label-email">E-mail</label>
+                    <br>
+                    <input id="email" class="input" type="email" placeholder="Digite seu e-mail" />
+                    
+                  
+
+                    <label for="password" class="subtitle" id="label-password">Senha</label>
+                    <br>
+                    <input id="password" class="input" type="password" placeholder="Digite sua senha" />
+
+                </div>
+
+                <button type="button" id="login-button">Entrar</button>
                 <br>
-                <input id="password" class="input" autocomplete="false" />
+                <a href="#" id="register-link">Nova conta</a>
 
             </div>
 
